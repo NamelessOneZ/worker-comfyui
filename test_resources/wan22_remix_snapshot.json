@@ -1,0 +1,53 @@
+{
+  "comfyui": "4ac401af2b3962f7a669a6757a804f7773833c47",
+  "git_custom_nodes": {
+    "https://github.com/ltdrdata/ComfyUI-Manager": {
+      "hash": "b6a8e6ba8147080a320b1b91c93a0b1cbdb93136",
+      "disabled": false
+    },
+    "https://github.com/Comfy-Org/ComfyUI-WanVideoWrapper": {
+      "hash": "d9b1f4d1a5aea91d101ae97a54714a5861af3f50",
+      "disabled": false
+    },
+    "https://github.com/kijai/ComfyUI-KJNodes": {
+      "hash": "a6b867b63a29ca48ddb15c589e17a9f2d8530d57",
+      "disabled": false
+    }
+  },
+  "models": {
+    "diffusion_models": [
+      {
+        "name": "Wan2.2_Remix_NSFW_i2v_14b_high_lighting_v2.0.safetensors",
+        "url": "https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2_Remix_NSFW_i2v_14b_high_lighting_v2.0.safetensors"
+      },
+      {
+        "name": "Wan2.2_Remix_NSFW_i2v_14b_low_lighting_v2.0.safetensors",
+        "url": "https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2_Remix_NSFW_i2v_14b_low_lighting_v2.0.safetensors"
+      }
+    ],
+    "text_encoders": [
+      {
+        "name": "nsfw_wan_umt5-xxl_fp8_scaled.safetensors",
+        "url": "https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/nsfw_wan_umt5-xxl_fp8_scaled.safetensors"
+      }
+    ],
+    "vae": [
+      {
+        "name": "wan_2.1_vae.safetensors",
+        "url": "https://huggingface.co/wanmodel/WAN2.1-I2V/resolve/main/wan_2.1_vae.safetensors"
+      }
+    ],
+    "loras": [
+      {
+        "name": "Wan2.2-Lightning_I2V-A14B-4steps-lora_HIGH_fp16.safetensors",
+        "url": "https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2-Lightning_I2V-A14B-4steps-lora_HIGH_fp16.safetensors",
+        "optional": true
+      },
+      {
+        "name": "Wan2.2-Lightning_I2V-A14B-4steps-lora_LOW_fp16.safetensors",
+        "url": "https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2-Lightning_I2V-A14B-4steps-lora_LOW_fp16.safetensors",
+        "optional": true
+      }
+    ]
+  }
+}

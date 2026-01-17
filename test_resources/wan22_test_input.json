@@ -1,0 +1,22 @@
+{
+  "input": {
+    "workflow": "wan22_i2v_remix",
+    "images": [
+      {
+        "name": "input_image.png",
+        "image": "base64_encoded_image_here_or_url"
+      }
+    ],
+    "prompt": "A cinematic close-up shot of a woman with flowing hair, dynamic camera movement, smooth motion, high quality, photorealistic",
+    "negative_prompt": "low quality, lowres, bad hands, extra limbs, missing fingers, poorly drawn face, bad anatomy, blurred, jpeg artifacts, deformed, ugly, bad proportions, disfigured, watermark, text, logo, signature, unrealistic eyes, cross-eyed, lopsided, bad lighting, harsh shadows, flat shading, unshapely body, pixelated, duplicate limbs, bad perspective, morphed, distorted, glitch, malformed hands, distorted fingers, noisy background, overly saturated, unnatural colors, lens distortion, grainy, low detail",
+    "lighting_model": "high",
+    "steps": 8,
+    "split_step": 4,
+    "cfg_scale": 4,
+    "seed": -1,
+    "length": 65,
+    "fps": 32,
+    "resolution": 720,
+    "use_lightning_lora": false
+  }
+}
