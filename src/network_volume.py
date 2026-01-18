@@ -19,6 +19,8 @@ MODEL_TYPES = {
     "upscale_models": [".safetensors", ".pt", ".pth"],
     "vae": [".safetensors", ".pt", ".bin"],
     "unet": [".safetensors", ".pt", ".bin"],
+    "diffusion_models": [".safetensors", ".pt", ".bin"],  # WAN2.2 video models
+    "text_encoders": [".safetensors", ".pt", ".bin"],  # WAN2.2 text encoders
 }
 
 

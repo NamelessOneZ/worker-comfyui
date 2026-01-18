@@ -64,6 +64,21 @@ RUN if [ "$ENABLE_PYTORCH_UPGRADE" = "true" ]; then \
 # Change working directory to ComfyUI
 WORKDIR /comfyui
 
+# Install custom nodes for WAN2.2 video generation
+# ComfyUI-WanVideoWrapper - Core WAN video support
+RUN comfy node install ComfyUI-WanVideoWrapper || echo "Warning: ComfyUI-WanVideoWrapper installation skipped"
+# ComfyUI-Frame-Interpolation - RIFE VFI for smoother video
+RUN comfy node install ComfyUI-Frame-Interpolation || echo "Warning: ComfyUI-Frame-Interpolation installation skipped"
+# ComfyUI-KJNodes - Utility nodes (INTConstant, etc.)
+RUN comfy node install ComfyUI-KJNodes || echo "Warning: ComfyUI-KJNodes installation skipped"
+# ComfyUI-Custom-Scripts - Math expressions
+RUN comfy node install ComfyUI-Custom-Scripts || echo "Warning: ComfyUI-Custom-Scripts installation skipped"
+# ComfyUI-Easy-Use - easy int nodes
+RUN comfy node install ComfyUI-Easy-Use || echo "Warning: ComfyUI-Easy-Use installation skipped"
+
+# Install SageAttention for faster video generation
+RUN uv pip install sageattention || echo "Warning: sageattention installation skipped"
+
 # Support for the network volume
 ADD src/extra_model_paths.yaml ./
 
@@ -96,7 +111,7 @@ FROM base AS downloader
 
 ARG HUGGINGFACE_ACCESS_TOKEN
 # Set default model type if none is provided
-ARG MODEL_TYPE=flux1-dev-fp8
+ARG MODEL_TYPE=wan22-i2v-remix
 
 # Change working directory to ComfyUI
 WORKDIR /comfyui
@@ -138,6 +153,21 @@ RUN if [ "$MODEL_TYPE" = "z-image-turbo" ]; then \
       wget -q -O models/diffusion_models/z_image_turbo_bf16.safetensors https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors && \
       wget -q -O models/vae/ae.safetensors https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors && \
       wget -q -O models/model_patches/Z-Image-Turbo-Fun-Controlnet-Union.safetensors https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union/resolve/main/Z-Image-Turbo-Fun-Controlnet-Union.safetensors; \
+    fi
+
+# WAN2.2 I2V Remix models (video generation)
+RUN if [ "$MODEL_TYPE" = "wan22-i2v-remix" ]; then \
+      mkdir -p models/loras && \
+      echo "Downloading WAN2.2 diffusion models..." && \
+      wget -q --show-progress -O models/diffusion_models/Wan2.2_Remix_NSFW_i2v_14b_high_lighting_v2.0.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2_Remix_NSFW_i2v_14b_high_lighting_v2.0.safetensors && \
+      wget -q --show-progress -O models/diffusion_models/Wan2.2_Remix_NSFW_i2v_14b_low_lighting_v2.0.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2_Remix_NSFW_i2v_14b_low_lighting_v2.0.safetensors && \
+      echo "Downloading WAN2.2 text encoder..." && \
+      wget -q --show-progress -O models/text_encoders/nsfw_wan_umt5-xxl_fp8_scaled.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/nsfw_wan_umt5-xxl_fp8_scaled.safetensors && \
+      echo "Downloading WAN2.1 VAE..." && \
+      wget -q --show-progress -O models/vae/wan_2.1_vae.safetensors https://huggingface.co/wanmodel/WAN2.1-I2V/resolve/main/wan_2.1_vae.safetensors && \
+      echo "Downloading optional Lightning LoRAs..." && \
+      wget -q --show-progress -O models/loras/Wan2.2-Lightning_I2V-A14B-4steps-lora_HIGH_fp16.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2-Lightning_I2V-A14B-4steps-lora_HIGH_fp16.safetensors || true && \
+      wget -q --show-progress -O models/loras/Wan2.2-Lightning_I2V-A14B-4steps-lora_LOW_fp16.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2-Lightning_I2V-A14B-4steps-lora_LOW_fp16.safetensors || true; \
     fi
 
 # Stage 3: Final image

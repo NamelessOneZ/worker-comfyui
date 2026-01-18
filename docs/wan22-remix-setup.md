@@ -12,6 +12,8 @@ This setup enables you to run the WAN2.2 Remix NSFW Image-to-Video model on RunP
 
 **Tutorial Reference:** [Creating Uncensored Videos with WAN2.2 Remix in ComfyUI](https://www.nextdiffusion.ai/tutorials/creating-uncensored-videos-with-wan22-remix-in-comfyui-i2v)
 
+**RunPod Serverless Docs:** [Deploy ComfyUI with Serverless](https://docs.runpod.io/tutorials/serverless/comfyui)
+
 ## System Requirements
 
 - **Recommended GPU:** NVIDIA RTX 4090 (24GB VRAM) or equivalent
@@ -19,20 +21,60 @@ This setup enables you to run the WAN2.2 Remix NSFW Image-to-Video model on RunP
 - **Storage:** ~30GB for all models
 - **RunPod:** Use GPU instances with sufficient VRAM
 
+## Quick Start - Build & Deploy
+
+### 1. Build the Docker Image
+
+```bash
+# Build for WAN2.2 Remix (default)
+docker buildx bake wan22-i2v-remix
+
+# Or with docker build
+docker build -t your-registry/comfyui-wan22:latest --build-arg MODEL_TYPE=wan22-i2v-remix .
+```
+
+The Docker build will automatically:
+- Install ComfyUI
+- Install required custom nodes (ComfyUI-WanVideoWrapper, ComfyUI-Frame-Interpolation, etc.)
+- Download all WAN2.2 models (~30GB)
+- Install SageAttention for faster inference
+
+### 2. Deploy to RunPod Serverless
+
+1. Push the image to your container registry
+2. Create a new Serverless endpoint in RunPod console
+3. Configure with 24GB+ VRAM GPU
+4. Set the container image URL
+
+### 3. Test Your Endpoint
+
+Send a request with your workflow:
+
+```bash
+curl -X POST https://api.runpod.ai/v2/YOUR_ENDPOINT_ID/run \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer YOUR_API_KEY' \
+    -d @test_input.json
+```
+
 ## Files Structure
 
 ```
 worker-comfyui/
+├── Dockerfile                             # Main build file (default: wan22-i2v-remix)
+├── docker-bake.hcl                        # Build targets including wan22-i2v-remix
+├── handler.py                             # RunPod handler (supports videos)
+├── test_input.json                        # WAN2.2 workflow for testing
 ├── test_resources/
 │   ├── workflows/
-│   │   └── wan22_i2v_remix.json          # Main workflow file
+│   │   └── wan22_i2v_remix.json          # Full ComfyUI workflow file
 │   ├── wan22_remix_snapshot.json          # Model download manifest
-│   └── wan22_test_input.json              # Example input format
+│   └── wan22_test_input.json              # Alternative input format
 └── scripts/
-    └── download_wan22_models.sh           # Model download script
+    └── download_wan22_models.sh           # Manual model download script
 ```
 
-## Required Models
+## Required Models (Auto-Downloaded)
 
 ### Core Models (Required)
 
@@ -99,28 +141,75 @@ test_resources/workflows/wan22_i2v_remix.json
 
 ### Example Input
 
+The workflow must be in ComfyUI API format (node IDs as keys with `inputs`, `class_type`, `_meta`). See `test_input.json` for a complete example.
+
 ```json
 {
   "input": {
-    "workflow": "wan22_i2v_remix",
     "images": [
       {
         "name": "input_image.png",
-        "image": "https://example.com/image.png"
+        "image": "data:image/png;base64,iVBORw0KGgo..."
       }
     ],
-    "prompt": "A cinematic close-up shot of a woman with flowing hair, dynamic camera movement, smooth motion, high quality, photorealistic",
-    "negative_prompt": "low quality, lowres, bad hands, bad anatomy, blurred, deformed",
-    "lighting_model": "high",
-    "steps": 8,
-    "split_step": 4,
-    "cfg_scale": 4,
-    "seed": -1,
-    "length": 65,
-    "fps": 32,
-    "resolution": 720,
-    "use_lightning_lora": false
+    "workflow": {
+      "117": {
+        "inputs": {
+          "filename_prefix": "video/ComfyUI",
+          "format": "auto",
+          "codec": "h264",
+          "video": ["116", 0]
+        },
+        "class_type": "SaveVideo",
+        "_meta": { "title": "SaveVideo" }
+      },
+      "131": {
+        "inputs": {
+          "model": "Wan2.2_Remix_NSFW_i2v_14b_high_lighting_v2.0.safetensors",
+          "precision": "fp16_fast",
+          "attention": "sageattn",
+          "compile_args": ["127", 0],
+          "block_swap_args": ["128", 0]
+        },
+        "class_type": "WanVideoModelLoader",
+        "_meta": { "title": "Load WAN Video Model (High)" }
+      },
+      "134": {
+        "inputs": {
+          "text": "A cinematic shot with smooth motion, high quality",
+          "clip": ["133", 0]
+        },
+        "class_type": "CLIPTextEncode",
+        "_meta": { "title": "Positive Prompt" }
+      },
+      "148": {
+        "inputs": {
+          "image": "input_image.png",
+          "upload": "image"
+        },
+        "class_type": "LoadImage",
+        "_meta": { "title": "Load Image" }
+      }
+    }
   }
+}
+```
+
+**Note:** The complete workflow JSON is in `test_input.json`. The above is abbreviated.
+
+### Response Format
+
+Videos are returned in the response:
+
+```json
+{
+  "videos": [
+    {
+      "filename": "ComfyUI_00001_.mp4",
+      "type": "base64",
+      "data": "AAAAIGZ0eXBpc29..."
+    }
+  ]
 }
 ```
 

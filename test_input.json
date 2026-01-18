@@ -2,116 +2,257 @@
   "input": {
     "images": [
       {
-        "name": "test.png",
+        "name": "input_image.png",
         "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAMklEQVR4nGI5ZdXAQEvARFPTRy0YtWDUglELRi0YtWDUglELRi0YtWDUAioCQAAAAP//E24Bx3jUKuYAAAAASUVORK5CYII="
       }
     ],
     "workflow": {
-      "6": {
+      "115": {
         "inputs": {
-          "text": "anime cat with massive fluffy fennec ears and a big fluffy tail blonde messy long hair blue eyes wearing a construction outfit placing a fancy black forest cake with candles on top of a dinner table of an old dark Victorian mansion lit by candlelight with a bright window to the foggy forest and very expensive stuff everywhere there are paintings on the walls",
-          "clip": ["30", 1]
+          "ckpt_name": "rife47.pth",
+          "clear_cache_after_n_frames": 50,
+          "multiplier": 2,
+          "fast_mode": true,
+          "ensemble": true,
+          "scale_factor": 1,
+          "frames": ["158", 0]
+        },
+        "class_type": "RIFE VFI",
+        "_meta": {
+          "title": "RIFE VFI"
+        }
+      },
+      "116": {
+        "inputs": {
+          "frame_rate": 32,
+          "images": ["115", 0]
+        },
+        "class_type": "CreateVideo",
+        "_meta": {
+          "title": "CreateVideo"
+        }
+      },
+      "117": {
+        "inputs": {
+          "filename_prefix": "video/ComfyUI",
+          "format": "auto",
+          "codec": "h264",
+          "video": ["116", 0]
+        },
+        "class_type": "SaveVideo",
+        "_meta": {
+          "title": "SaveVideo"
+        }
+      },
+      "127": {
+        "inputs": {
+          "backend": "inductor",
+          "fullgraph": false,
+          "mode": "default",
+          "dynamic": false,
+          "dynamo_cache_size_limit": 64,
+          "compile_single_blocks": true,
+          "compile_double_blocks": 128,
+          "compile_txt_in": false,
+          "compile_vector_in": false
+        },
+        "class_type": "WanVideoTorchCompileSettings",
+        "_meta": {
+          "title": "WanVideoTorchCompileSettings"
+        }
+      },
+      "128": {
+        "inputs": {
+          "blocks_to_swap": 20,
+          "offload_txt_in": false,
+          "offload_img_in": false,
+          "offload_img_emb": false,
+          "extra_offload_first_block": 0,
+          "extra_offload_last_block": 0,
+          "extra_offload_txt_in": false
+        },
+        "class_type": "WanVideoBlockSwap",
+        "_meta": {
+          "title": "WanVideoBlockSwap"
+        }
+      },
+      "131": {
+        "inputs": {
+          "model": "Wan2.2_Remix_NSFW_i2v_14b_high_lighting_v2.0.safetensors",
+          "precision": "fp16_fast",
+          "compile": "disabled",
+          "offload_to": "offload_device",
+          "attention": "sageattn",
+          "blocks": "default",
+          "compile_args": ["127", 0],
+          "block_swap_args": ["128", 0]
+        },
+        "class_type": "WanVideoModelLoader",
+        "_meta": {
+          "title": "Load WAN Video Model (High Lighting)"
+        }
+      },
+      "132": {
+        "inputs": {
+          "model": "Wan2.2_Remix_NSFW_i2v_14b_low_lighting_v2.0.safetensors",
+          "precision": "fp16_fast",
+          "compile": "disabled",
+          "offload_to": "offload_device",
+          "attention": "sageattn",
+          "blocks": "default",
+          "compile_args": ["127", 0],
+          "block_swap_args": ["128", 0]
+        },
+        "class_type": "WanVideoModelLoader",
+        "_meta": {
+          "title": "Load WAN Video Model (Low Lighting)"
+        }
+      },
+      "133": {
+        "inputs": {
+          "clip_name": "nsfw_wan_umt5-xxl_fp8_scaled.safetensors",
+          "type": "wan",
+          "device": "default"
+        },
+        "class_type": "CLIPLoader",
+        "_meta": {
+          "title": "Load CLIP"
+        }
+      },
+      "134": {
+        "inputs": {
+          "text": "A cinematic shot of a person with smooth natural movement, high quality, 4k, photorealistic lighting",
+          "clip": ["133", 0]
         },
         "class_type": "CLIPTextEncode",
         "_meta": {
           "title": "CLIP Text Encode (Positive Prompt)"
         }
       },
-      "8": {
+      "137": {
         "inputs": {
-          "samples": ["31", 0],
-          "vae": ["30", 2]
-        },
-        "class_type": "VAEDecode",
-        "_meta": {
-          "title": "VAE Decode"
-        }
-      },
-      "9": {
-        "inputs": {
-          "filename_prefix": "ComfyUI",
-          "images": ["8", 0]
-        },
-        "class_type": "SaveImage",
-        "_meta": {
-          "title": "Save Image"
-        }
-      },
-      "27": {
-        "inputs": {
-          "width": 512,
-          "height": 512,
-          "batch_size": 1
-        },
-        "class_type": "EmptySD3LatentImage",
-        "_meta": {
-          "title": "EmptySD3LatentImage"
-        }
-      },
-      "30": {
-        "inputs": {
-          "ckpt_name": "flux1-dev-fp8.safetensors"
-        },
-        "class_type": "CheckpointLoaderSimple",
-        "_meta": {
-          "title": "Load Checkpoint"
-        }
-      },
-      "31": {
-        "inputs": {
-          "seed": 243057879077961,
-          "steps": 10,
-          "cfg": 1,
-          "sampler_name": "euler",
-          "scheduler": "simple",
-          "denoise": 1,
-          "model": ["30", 0],
-          "positive": ["35", 0],
-          "negative": ["33", 0],
-          "latent_image": ["27", 0]
-        },
-        "class_type": "KSampler",
-        "_meta": {
-          "title": "KSampler"
-        }
-      },
-      "33": {
-        "inputs": {
-          "text": "",
-          "clip": ["30", 1]
+          "text": "low quality, lowres, bad hands, extra limbs, missing fingers, poorly drawn face, bad anatomy, blurred, jpeg artifacts, deformed, ugly, bad proportions, disfigured, watermark, text, logo, signature",
+          "clip": ["133", 0]
         },
         "class_type": "CLIPTextEncode",
         "_meta": {
           "title": "CLIP Text Encode (Negative Prompt)"
         }
       },
-      "35": {
+      "138": {
         "inputs": {
-          "guidance": 3.5,
-          "conditioning": ["6", 0]
+          "positive": ["134", 0],
+          "negative": ["137", 0]
         },
-        "class_type": "FluxGuidance",
+        "class_type": "WanVideoTextEmbedBridge",
         "_meta": {
-          "title": "FluxGuidance"
+          "title": "WanVideoTextEmbedBridge"
         }
       },
-      "38": {
+      "139": {
         "inputs": {
-          "images": ["8", 0]
+          "cfg": 4,
+          "cfg_start": 1,
+          "steps": 8,
+          "seed": 246405119682734,
+          "seed_mode": "randomize",
+          "shift": true,
+          "scheduler": "euler",
+          "start_step": 0,
+          "end_step": 4,
+          "i2v_cond_end_percent": false,
+          "sampler": "comfy",
+          "sampler_start_step": 0,
+          "sampler_split_step": 2,
+          "remove_start_frame": true,
+          "model": ["131", 0],
+          "image_embeds": ["156", 0],
+          "text_embeds": ["138", 0]
         },
-        "class_type": "PreviewImage",
+        "class_type": "WanVideoSampler",
         "_meta": {
-          "title": "Preview Image"
+          "title": "WanVideoSampler (High Lighting)"
         }
       },
-      "40": {
+      "140": {
         "inputs": {
-          "filename_prefix": "ComfyUI",
-          "images": ["8", 0]
+          "cfg": 4,
+          "cfg_start": 1,
+          "steps": 8,
+          "seed": 941824044416901,
+          "seed_mode": "fixed",
+          "shift": true,
+          "scheduler": "euler",
+          "start_step": 4,
+          "end_step": 10000,
+          "i2v_cond_end_percent": false,
+          "sampler": "comfy",
+          "sampler_start_step": 2,
+          "sampler_split_step": 10000,
+          "remove_start_frame": false,
+          "model": ["132", 0],
+          "image_embeds": ["156", 0],
+          "text_embeds": ["138", 0],
+          "samples": ["139", 0]
         },
-        "class_type": "SaveImage",
+        "class_type": "WanVideoSampler",
         "_meta": {
-          "title": "Save Image"
+          "title": "WanVideoSampler (Low Lighting)"
+        }
+      },
+      "148": {
+        "inputs": {
+          "image": "input_image.png",
+          "upload": "image"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "Load Image"
+        }
+      },
+      "156": {
+        "inputs": {
+          "width": 832,
+          "height": 480,
+          "length": 65,
+          "start_frame_window_overlap": 0,
+          "end_frame_window_overlap": 1,
+          "tile_latent_min_size": 1,
+          "inpaint": true,
+          "i2v": false,
+          "no_latent": false,
+          "vae": ["157", 0],
+          "start_image": ["148", 0]
+        },
+        "class_type": "WanVideoImageToVideoEncode",
+        "_meta": {
+          "title": "WanVideoImageToVideoEncode"
+        }
+      },
+      "157": {
+        "inputs": {
+          "vae_name": "wan_2.1_vae.safetensors",
+          "precision": "bf16"
+        },
+        "class_type": "WanVideoVAELoader",
+        "_meta": {
+          "title": "Load WAN VAE"
+        }
+      },
+      "158": {
+        "inputs": {
+          "enable_vae_tiling": false,
+          "tile_size_h": 272,
+          "tile_size_w": 272,
+          "tile_stride_h": 144,
+          "tile_stride_w": 128,
+          "temporal_tiling": "default",
+          "vae": ["157", 0],
+          "samples": ["140", 0]
+        },
+        "class_type": "WanVideoDecode",
+        "_meta": {
+          "title": "WanVideoDecode"
         }
       }
     }
