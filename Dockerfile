@@ -111,7 +111,8 @@ FROM base AS downloader
 
 ARG HUGGINGFACE_ACCESS_TOKEN
 # Set default model type if none is provided
-ARG MODEL_TYPE=wan22-i2v-remix
+# Use "network_volume" to skip model downloads and load from mounted volume
+ARG MODEL_TYPE=network_volume
 
 # Change working directory to ComfyUI
 WORKDIR /comfyui

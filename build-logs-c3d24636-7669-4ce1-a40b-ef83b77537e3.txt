@@ -1,0 +1,452 @@
+2026-01-18T10:03:37.742Z [INFO] #14 extracting sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd
+2026-01-18T10:03:41.669Z [INFO] #14 extracting sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd 4.1s done
+2026-01-18T10:03:41.825Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 6.29MB / 326.27MB 0.2s
+2026-01-18T10:03:42.275Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 25.17MB / 326.27MB 0.6s
+2026-01-18T10:03:42.725Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 45.09MB / 326.27MB 1.1s
+2026-01-18T10:03:43.174Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 63.96MB / 326.27MB 1.5s
+2026-01-18T10:03:43.625Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 82.84MB / 326.27MB 2.0s
+2026-01-18T10:03:44.076Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 101.71MB / 326.27MB 2.4s
+2026-01-18T10:03:44.675Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 121.63MB / 326.27MB 3.0s
+2026-01-18T10:03:45.125Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 140.51MB / 326.27MB 3.5s
+2026-01-18T10:03:45.575Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 159.38MB / 326.27MB 3.9s
+2026-01-18T10:03:46.025Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 178.26MB / 326.27MB 4.4s
+2026-01-18T10:03:46.474Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 198.18MB / 326.27MB 4.8s
+2026-01-18T10:03:46.924Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 217.06MB / 326.27MB 5.3s
+2026-01-18T10:03:47.825Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 236.98MB / 326.27MB 6.2s
+2026-01-18T10:03:48.424Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 259.00MB / 326.27MB 6.8s
+2026-01-18T10:03:48.875Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 278.92MB / 326.27MB 7.2s
+2026-01-18T10:03:49.324Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 296.75MB / 326.27MB 7.7s
+2026-01-18T10:03:49.775Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 314.57MB / 326.27MB 8.1s
+2026-01-18T10:03:50.297Z [INFO] #14 sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 326.27MB / 326.27MB 8.5s done
+2026-01-18T10:03:50.297Z [INFO] #14 extracting sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39
+2026-01-18T10:03:59.224Z [INFO] #14 extracting sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 9.1s done
+2026-01-18T10:03:59.435Z [INFO] #14 sha256:58993f5e34750d2324e4b2f1a97cf4dc2bb3a33958490b4d31153ed90a65cadd 637B / 637B 0.0s done
+2026-01-18T10:03:59.435Z [INFO] #14 extracting sha256:58993f5e34750d2324e4b2f1a97cf4dc2bb3a33958490b4d31153ed90a65cadd 0.0s done
+2026-01-18T10:03:59.437Z [INFO] #14 sha256:89306e1ea8c58b29b89d766c35723d6131de88f4e768ae5d5d6bda60fa26ca44 5.24MB / 23.25MB 0.2s
+2026-01-18T10:03:59.587Z [INFO] #14 sha256:89306e1ea8c58b29b89d766c35723d6131de88f4e768ae5d5d6bda60fa26ca44 11.53MB / 23.25MB 0.3s
+2026-01-18T10:03:59.738Z [INFO] #14 sha256:89306e1ea8c58b29b89d766c35723d6131de88f4e768ae5d5d6bda60fa26ca44 18.87MB / 23.25MB 0.5s
+2026-01-18T10:03:59.857Z [INFO] #14 sha256:89306e1ea8c58b29b89d766c35723d6131de88f4e768ae5d5d6bda60fa26ca44 23.25MB / 23.25MB 0.6s done
+2026-01-18T10:04:00.008Z [INFO] #14 extracting sha256:89306e1ea8c58b29b89d766c35723d6131de88f4e768ae5d5d6bda60fa26ca44
+2026-01-18T10:04:00.130Z [INFO] #14 extracting sha256:89306e1ea8c58b29b89d766c35723d6131de88f4e768ae5d5d6bda60fa26ca44 0.3s done
+2026-01-18T10:04:00.286Z [INFO] #14 sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 6.29MB / 52.63MB 0.2s
+2026-01-18T10:04:00.436Z [INFO] #14 sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 12.58MB / 52.63MB 0.3s
+2026-01-18T10:04:00.587Z [INFO] #14 sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 19.92MB / 52.63MB 0.5s
+2026-01-18T10:04:00.737Z [INFO] #14 sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 27.26MB / 52.63MB 0.6s
+2026-01-18T10:04:00.887Z [INFO] #14 sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 33.55MB / 52.63MB 0.8s
+2026-01-18T10:04:01.037Z [INFO] #14 sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 40.89MB / 52.63MB 0.9s
+2026-01-18T10:04:01.187Z [INFO] #14 sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 47.19MB / 52.63MB 1.1s
+2026-01-18T10:04:01.337Z [INFO] #14 sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 52.63MB / 52.63MB 1.2s
+2026-01-18T10:04:01.497Z [INFO] #14 sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 52.63MB / 52.63MB 1.2s done
+2026-01-18T10:04:01.497Z [INFO] #14 extracting sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d
+2026-01-18T10:04:04.375Z [INFO] #14 extracting sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 3.0s done
+2026-01-18T10:04:04.535Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 5.24MB / 9.13GB 0.2s
+2026-01-18T10:04:09.634Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 221.25MB / 9.13GB 5.3s
+2026-01-18T10:04:14.734Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 432.01MB / 9.13GB 10.4s
+2026-01-18T10:04:19.834Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 643.94MB / 9.13GB 15.5s
+2026-01-18T10:04:24.934Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 842.01MB / 9.13GB 20.6s
+2026-01-18T10:04:30.035Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 1.05GB / 9.13GB 25.7s
+2026-01-18T10:04:35.134Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 1.27GB / 9.13GB 30.8s
+2026-01-18T10:04:40.235Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 1.48GB / 9.13GB 35.9s
+2026-01-18T10:04:45.335Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 1.69GB / 9.13GB 41.0s
+2026-01-18T10:04:50.435Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 1.87GB / 9.13GB 46.1s
+2026-01-18T10:04:55.534Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 2.08GB / 9.13GB 51.2s
+2026-01-18T10:05:00.634Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 2.30GB / 9.13GB 56.3s
+2026-01-18T10:05:05.734Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 2.53GB / 9.13GB 61.4s
+2026-01-18T10:05:10.834Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 2.76GB / 9.13GB 66.5s
+2026-01-18T10:05:15.934Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 2.97GB / 9.13GB 71.6s
+2026-01-18T10:05:21.034Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 3.19GB / 9.13GB 76.7s
+2026-01-18T10:05:26.134Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 3.41GB / 9.13GB 81.8s
+2026-01-18T10:05:31.235Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 3.62GB / 9.13GB 86.9s
+2026-01-18T10:05:36.334Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 3.84GB / 9.13GB 92.0s
+2026-01-18T10:05:41.434Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 4.06GB / 9.13GB 97.1s
+2026-01-18T10:05:46.534Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 4.27GB / 9.13GB 102.2s
+2026-01-18T10:05:51.634Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 4.49GB / 9.13GB 107.3s
+2026-01-18T10:05:56.735Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 4.70GB / 9.13GB 112.4s
+2026-01-18T10:06:01.835Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 4.91GB / 9.13GB 117.5s
+2026-01-18T10:06:06.934Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 5.13GB / 9.13GB 122.6s
+2026-01-18T10:06:12.034Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 5.36GB / 9.13GB 127.7s
+2026-01-18T10:06:17.134Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 5.57GB / 9.13GB 132.8s
+2026-01-18T10:06:22.234Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 5.79GB / 9.13GB 137.9s
+2026-01-18T10:06:27.335Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 6.01GB / 9.13GB 143.0s
+2026-01-18T10:06:32.434Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 6.23GB / 9.13GB 148.1s
+2026-01-18T10:06:37.534Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 6.44GB / 9.13GB 153.2s
+2026-01-18T10:06:42.634Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 6.65GB / 9.13GB 158.3s
+2026-01-18T10:06:47.735Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 6.86GB / 9.13GB 163.4s
+2026-01-18T10:06:52.834Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 7.06GB / 9.13GB 168.5s
+2026-01-18T10:06:57.934Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 7.28GB / 9.13GB 173.6s
+2026-01-18T10:07:03.035Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 7.49GB / 9.13GB 178.7s
+2026-01-18T10:07:08.134Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 7.71GB / 9.13GB 183.8s
+2026-01-18T10:07:13.234Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 7.92GB / 9.13GB 188.9s
+2026-01-18T10:07:18.334Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 8.14GB / 9.13GB 194.0s
+2026-01-18T10:07:23.434Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 8.36GB / 9.13GB 199.1s
+2026-01-18T10:07:28.534Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 8.57GB / 9.13GB 204.2s
+2026-01-18T10:07:33.634Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 8.78GB / 9.13GB 209.3s
+2026-01-18T10:07:38.734Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 9.02GB / 9.13GB 214.4s
+2026-01-18T10:07:41.242Z [INFO] #14 sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 9.13GB / 9.13GB 216.9s done
+2026-01-18T10:07:41.393Z [INFO] #14 extracting sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159
+2026-01-18T10:08:47.556Z [INFO] #14 extracting sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 66.3s done
+2026-01-18T10:08:47.656Z [INFO] #14 sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 32B / 32B done
+2026-01-18T10:08:47.656Z [INFO] #14 extracting sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 0.0s done
+2026-01-18T10:08:47.656Z [INFO] #14 CACHED
+2026-01-18T10:08:47.807Z [INFO] #16 [base  9/23] RUN comfy node install ComfyUI-WanVideoWrapper || echo "Warning: ComfyUI-WanVideoWrapper installation skipped"
+2026-01-18T10:08:48.225Z [INFO] #16 0.568 Execute from: /comfyui
+2026-01-18T10:08:48.375Z [INFO] #16 0.569 Command: ['/opt/venv/bin/python',
+2026-01-18T10:08:48.375Z [INFO] #16 0.569 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install',
+2026-01-18T10:08:48.375Z [INFO] #16 0.569 'ComfyUI-WanVideoWrapper']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 FETCH DATA from: /comfyui/user/__manager/cache/1514988643_custom-node-list.json
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 [DONE]
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 install_node exit on fail:False...
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 Install: pip packages
+2026-01-18T10:08:58.768Z [INFO] #16 11.11
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'ftfy']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'accelerate>=1.2.1']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'einops']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'diffusers>=0.33.0']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'peft>=0.17.0']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'sentencepiece>=0.2.0']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'protobuf']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'pyloudnorm']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'gguf>=0.17.1']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'opencv-python']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 'install', 'scipy']
+2026-01-18T10:08:58.768Z [INFO] #16 11.11 1/1 [INSTALLED] ComfyUI-WanVideoWrapper                           [1.4.5]
+2026-01-18T10:08:59.240Z [INFO] #16 DONE 11.6s
+2026-01-18T10:08:59.391Z [INFO] #17 [base 10/23] RUN comfy node install ComfyUI-Frame-Interpolation || echo "Warning: ComfyUI-Frame-Interpolation installation skipped"
+2026-01-18T10:08:59.841Z [INFO] #17 0.601 Execute from: /comfyui
+2026-01-18T10:08:59.992Z [INFO] #17 0.601 Command: ['/opt/venv/bin/python',
+2026-01-18T10:08:59.992Z [INFO] #17 0.601 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install',
+2026-01-18T10:08:59.992Z [INFO] #17 0.601 'ComfyUI-Frame-Interpolation']
+2026-01-18T10:09:01.787Z [INFO] #17 2.547 FETCH DATA from: /comfyui/user/__manager/cache/1514988643_custom-node-list.json
+2026-01-18T10:09:01.787Z [INFO] #17 2.547 [DONE]
+2026-01-18T10:09:01.787Z [INFO] #17 2.547 install_node exit on fail:False...
+2026-01-18T10:09:01.787Z [INFO] #17 2.547
+2026-01-18T10:09:01.787Z [INFO] #17 2.547 Available version of 'ComfyUI-Frame-Interpolation'
+2026-01-18T10:09:01.787Z [INFO] #17 2.547 [2025-04-30] 1.0.7 --
+2026-01-18T10:09:01.787Z [INFO] #17 2.547 [2024-08-01] 1.0.6 --
+2026-01-18T10:09:01.787Z [INFO] #17 2.547 [2024-07-18] 1.0.5 --
+2026-01-18T10:09:01.787Z [INFO] #17 2.547 [2024-07-18] 1.0.1 --
+2026-01-18T10:09:01.787Z [INFO] #17 2.547 [2024-06-20] 1.0.0 --
+2026-01-18T10:09:02.033Z [INFO] #17 DONE 2.6s
+2026-01-18T10:09:02.033Z [INFO] #18 [base 11/23] RUN comfy node install ComfyUI-KJNodes || echo "Warning: ComfyUI-KJNodes installation skipped"
+2026-01-18T10:09:02.433Z [INFO] #18 0.550 Execute from: /comfyui
+2026-01-18T10:09:02.584Z [INFO] #18 0.551 Command: ['/opt/venv/bin/python',
+2026-01-18T10:09:02.584Z [INFO] #18 0.551 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install', 'ComfyUI-KJNodes']
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 FETCH DATA from: /comfyui/user/__manager/cache/1514988643_custom-node-list.json
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [DONE]
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 install_node exit on fail:False...
+2026-01-18T10:09:04.412Z [INFO] #18 2.530
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 Available version of 'ComfyUI-KJNodes'
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2026-01-15] 1.2.6 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2026-01-13] 1.2.5 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2026-01-08] 1.2.4 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2026-01-05] 1.2.3 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2025-12-17] 1.2.2 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2025-12-11] 1.2.1 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2025-12-09] 1.2.0 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2025-11-05] 1.1.9 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2025-10-30] 1.1.8 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2025-10-06] 1.1.7 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2025-09-18] 1.1.6 --
+2026-01-18T10:09:04.412Z [INFO] #18 2.530 [2025-09-18] 1.1.5 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-08-20] 1.1.4 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-07-14] 1.1.3 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-06-16] 1.1.2 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-06-03] 1.1.1 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-05-07] 1.1.0 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-04-23] 1.0.9 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-03-18] 1.0.8 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-03-06] 1.0.7 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-02-23] 1.0.6 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-01-18] 1.0.5 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-01-14] 1.0.4 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-01-12] 1.0.3 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2025-01-08] 1.0.2 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2024-08-05] 1.0.1 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530 [2024-06-19] 1.0.0 --
+2026-01-18T10:09:04.413Z [INFO] #18 2.530
+2026-01-18T10:09:04.642Z [INFO] #18 DONE 2.6s
+2026-01-18T10:09:04.642Z [INFO] #19 [base 12/23] RUN comfy node install ComfyUI-Custom-Scripts || echo "Warning: ComfyUI-Custom-Scripts installation skipped"
+2026-01-18T10:09:05.073Z [INFO] #19 0.582 Execute from: /comfyui
+2026-01-18T10:09:05.224Z [INFO] #19 0.582 Command: ['/opt/venv/bin/python',
+2026-01-18T10:09:05.224Z [INFO] #19 0.582 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install',
+2026-01-18T10:09:05.224Z [INFO] #19 0.582 'ComfyUI-Custom-Scripts']
+2026-01-18T10:09:06.671Z [INFO] #19 2.180 FETCH DATA from: /comfyui/user/__manager/cache/1514988643_custom-node-list.json
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [DONE]
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 install_node exit on fail:False...
+2026-01-18T10:09:06.672Z [INFO] #19 2.180
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 Available version of 'ComfyUI-Custom-Scripts'
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [2025-04-30] 1.2.5 --
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [2025-04-18] 1.2.4 --
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [2025-03-16] 1.2.3 --
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [2025-03-16] 1.2.2 --
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [2025-03-16] 1.2.1 --
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [2025-03-09] 1.2.0 --
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [2025-02-19] 1.1.1 --
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [2025-02-01] 1.1.0 --
+2026-01-18T10:09:06.672Z [INFO] #19 2.180 [2024-05-21] 1.0.0 --
+2026-01-18T10:09:06.895Z [INFO] #19 DONE 2.3s
+2026-01-18T10:09:06.895Z [INFO] #20 [base 13/23] RUN comfy node install ComfyUI-Easy-Use || echo "Warning: ComfyUI-Easy-Use installation skipped"
+2026-01-18T10:09:07.288Z [INFO] #20 0.543 Execute from: /comfyui
+2026-01-18T10:09:07.439Z [INFO] #20 0.544 Command: ['/opt/venv/bin/python',
+2026-01-18T10:09:07.439Z [INFO] #20 0.544 '/comfyui/custom_nodes/ComfyUI-Manager/cm-cli.py', 'install',
+2026-01-18T10:09:07.439Z [INFO] #20 0.544 'ComfyUI-Easy-Use']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 FETCH DATA from: /comfyui/user/__manager/cache/1514988643_custom-node-list.json
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 [DONE]
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 install_node exit on fail:False...
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 Download: git clone 'https://github.com/yolain/ComfyUI-Easy-Use'
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 Install: pip packages
+2026-01-18T10:09:15.195Z [INFO] #20 8.450
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 ## ComfyUI-Manager: EXECUTE => ['/opt/venv/bin/python', '-m', 'uv', 'pip',
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'diffusers']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'accelerate']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'clip_interrogator>=0.6.0']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'lark']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'onnxruntime']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'opencv-python-headless']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'sentencepiece']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'spandrel']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'matplotlib']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 'install', 'peft']
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 Installation was successful.
+2026-01-18T10:09:15.195Z [INFO] #20 8.450 1/1 [INSTALLED] ComfyUI-Easy-Use                                  [UNKNOWN]
+2026-01-18T10:09:15.411Z [INFO] #20 DONE 8.7s
+2026-01-18T10:09:15.561Z [INFO] #21 [base 14/23] RUN uv pip install sageattention || echo "Warning: sageattention installation skipped"
+2026-01-18T10:09:15.733Z [INFO] #21 0.322 Using Python 3.12.3 environment at: /opt/venv
+2026-01-18T10:09:15.937Z [INFO] #21 0.526 Resolved 1 package in 199ms
+2026-01-18T10:09:16.170Z [INFO] #21 0.565 Prepared 1 package in 38ms
+2026-01-18T10:09:16.170Z [INFO] #21 0.571 Installed 1 package in 6ms
+2026-01-18T10:09:16.171Z [INFO] #21 0.571  + sageattention==1.0.6
+2026-01-18T10:09:16.171Z [INFO] #21 DONE 0.6s
+2026-01-18T10:09:16.171Z [INFO] #22 [base 15/23] ADD src/extra_model_paths.yaml ./
+2026-01-18T10:09:16.171Z [INFO] #22 DONE 0.0s
+2026-01-18T10:09:16.171Z [INFO] #23 [base 16/23] RUN uv pip install runpod requests websocket-client
+2026-01-18T10:09:16.269Z [INFO] #23 0.248 Using Python 3.12.3 environment at: /opt/venv
+2026-01-18T10:09:17.150Z [INFO] #23 1.130 Resolved 89 packages in 875ms
+2026-01-18T10:09:17.366Z [INFO] #23 1.191 Downloading uvloop (4.2MiB)
+2026-01-18T10:09:17.366Z [INFO] #23 1.192 Downloading botocore (13.9MiB)
+2026-01-18T10:09:17.366Z [INFO] #23 1.212 Downloading cryptography (4.3MiB)
+2026-01-18T10:09:17.366Z [INFO] #23 1.220 Downloading brotli (1.4MiB)
+2026-01-18T10:09:17.367Z [INFO] #23 1.346  Downloaded brotli
+2026-01-18T10:09:17.582Z [INFO] #23 1.406  Downloaded uvloop
+2026-01-18T10:09:17.582Z [INFO] #23 1.411  Downloaded cryptography
+2026-01-18T10:09:17.727Z [INFO] #23 1.707  Downloaded botocore
+2026-01-18T10:09:17.873Z [INFO] #23 1.707 Prepared 44 packages in 573ms
+2026-01-18T10:09:17.873Z [INFO] #23 1.736 Uninstalled 1 package in 29ms
+2026-01-18T10:09:17.873Z [INFO] #23 1.852 Installed 44 packages in 115ms
+2026-01-18T10:09:17.873Z [INFO] #23 1.852  + aiodns==4.0.0
+2026-01-18T10:09:18.024Z [INFO] #23 1.852  + aiohttp-retry==2.9.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.852  + annotated-doc==0.0.4
+2026-01-18T10:09:18.025Z [INFO] #23 1.852  + backoff==2.2.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.852  + backports-zstd==1.3.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.852  + bcrypt==5.0.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.852  + boto3==1.42.30
+2026-01-18T10:09:18.025Z [INFO] #23 1.852  + botocore==1.42.30
+2026-01-18T10:09:18.025Z [INFO] #23 1.852  + brotli==1.2.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.852  + colorama==0.4.6
+2026-01-18T10:09:18.025Z [INFO] #23 1.852  - cryptography==46.0.3
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + cryptography==45.0.7
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + dnspython==2.8.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + email-validator==2.3.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + fastapi==0.128.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + fastapi-cli==0.0.20
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + fastapi-cloud-cli==0.11.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + fastar==0.8.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + httptools==0.7.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + inquirerpy==0.3.4
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + invoke==2.2.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + itsdangerous==2.2.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + jmespath==1.0.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + orjson==3.11.5
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + paramiko==4.0.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + pfzy==0.3.4
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + prettytable==3.17.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + py-cpuinfo==9.0.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + pycares==5.0.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + pydantic-extra-types==2.11.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + python-multipart==0.0.21
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + rich-toolkit==0.17.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.853  + rignore==0.7.6
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + runpod==1.8.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + s3transfer==0.16.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + sentry-sdk==2.49.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + starlette==0.50.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + tomli==2.4.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + tqdm-loggable==0.2
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + ujson==5.11.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + uvicorn==0.40.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + uvloop==0.22.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + watchdog==6.0.0
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + watchfiles==1.1.1
+2026-01-18T10:09:18.025Z [INFO] #23 1.854  + websockets==16.0
+2026-01-18T10:09:18.051Z [INFO] #23 DONE 2.0s
+2026-01-18T10:09:18.202Z [INFO] #24 [base 17/23] ADD src/start.sh src/network_volume.py handler.py test_input.json ./
+2026-01-18T10:09:18.223Z [INFO] #24 DONE 0.2s
+2026-01-18T10:09:18.374Z [INFO] #25 [base 18/23] RUN chmod +x /start.sh
+2026-01-18T10:09:18.400Z [INFO] #25 DONE 0.2s
+2026-01-18T10:09:18.572Z [INFO] #26 [base 19/23] COPY scripts/comfy-node-install.sh /usr/local/bin/comfy-node-install
+2026-01-18T10:09:18.572Z [INFO] #26 DONE 0.0s
+2026-01-18T10:09:18.572Z [INFO] #27 [base 20/23] RUN chmod +x /usr/local/bin/comfy-node-install
+2026-01-18T10:09:18.596Z [INFO] #27 DONE 0.2s
+2026-01-18T10:09:18.768Z [INFO] #28 [base 21/23] COPY scripts/comfy-manager-set-mode.sh /usr/local/bin/comfy-manager-set-mode
+2026-01-18T10:09:18.768Z [INFO] #28 DONE 0.0s
+2026-01-18T10:09:18.768Z [INFO] #29 [base 22/23] RUN chmod +x /usr/local/bin/comfy-manager-set-mode
+2026-01-18T10:09:18.780Z [INFO] #29 DONE 0.2s
+2026-01-18T10:09:18.947Z [INFO] #30 [downloader 1/9] WORKDIR /comfyui
+2026-01-18T10:09:18.947Z [INFO] #30 DONE 0.0s
+2026-01-18T10:09:18.947Z [INFO] #31 [downloader 2/9] RUN mkdir -p models/checkpoints models/vae models/unet models/clip models/text_encoders models/diffusion_models models/model_patches
+2026-01-18T10:09:19.011Z [INFO] #31 DONE 0.2s
+2026-01-18T10:09:19.163Z [INFO] #32 [downloader 3/9] RUN if [ "wan22-i2v-remix" = "sdxl" ]; then       wget -q -O models/checkpoints/sd_xl_base_1.0.safetensors https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors &&       wget -q -O models/vae/sdxl_vae.safetensors https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors &&       wget -q -O models/vae/sdxl-vae-fp16-fix.safetensors https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors;     fi
+2026-01-18T10:09:19.193Z [INFO] #32 DONE 0.2s
+2026-01-18T10:09:19.344Z [INFO] #33 [downloader 4/9] RUN if [ "wan22-i2v-remix" = "sd3" ]; then       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/checkpoints/sd3_medium_incl_clips_t5xxlfp8.safetensors https://huggingface.co/stabilityai/stable-diffusion-3-medium/resolve/main/sd3_medium_incl_clips_t5xxlfp8.safetensors;     fi
+2026-01-18T10:09:19.391Z [INFO] #33 DONE 0.2s
+2026-01-18T10:09:19.542Z [INFO] #34 [downloader 5/9] RUN if [ "wan22-i2v-remix" = "flux1-schnell" ]; then       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/unet/flux1-schnell.safetensors https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.safetensors &&       wget -q -O models/clip/clip_l.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors &&       wget -q -O models/clip/t5xxl_fp8_e4m3fn.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors &&       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/vae/ae.safetensors https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors;     fi
+2026-01-18T10:09:19.580Z [INFO] #34 DONE 0.2s
+2026-01-18T10:09:19.731Z [INFO] #35 [downloader 6/9] RUN if [ "wan22-i2v-remix" = "flux1-dev" ]; then       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/unet/flux1-dev.safetensors https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors &&       wget -q -O models/clip/clip_l.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors &&       wget -q -O models/clip/t5xxl_fp8_e4m3fn.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors &&       wget -q --header="Authorization: Bearer ${HUGGINGFACE_ACCESS_TOKEN}" -O models/vae/ae.safetensors https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors;     fi
+2026-01-18T10:09:19.804Z [INFO] #35 DONE 0.2s
+2026-01-18T10:09:19.955Z [INFO] #36 [downloader 7/9] RUN if [ "wan22-i2v-remix" = "flux1-dev-fp8" ]; then       wget -q -O models/checkpoints/flux1-dev-fp8.safetensors https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors;     fi
+2026-01-18T10:09:20.003Z [INFO] #36 DONE 0.2s
+2026-01-18T10:09:20.154Z [INFO] #37 [downloader 8/9] RUN if [ "wan22-i2v-remix" = "z-image-turbo" ]; then       wget -q -O models/text_encoders/qwen_3_4b.safetensors https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors &&       wget -q -O models/diffusion_models/z_image_turbo_bf16.safetensors https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors &&       wget -q -O models/vae/ae.safetensors https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors &&       wget -q -O models/model_patches/Z-Image-Turbo-Fun-Controlnet-Union.safetensors https://huggingface.co/alibaba-pai/Z-Image-Turbo-Fun-Controlnet-Union/resolve/main/Z-Image-Turbo-Fun-Controlnet-Union.safetensors;     fi
+2026-01-18T10:09:20.205Z [INFO] #37 DONE 0.2s
+2026-01-18T10:09:20.356Z [INFO] #38 [downloader 9/9] RUN if [ "wan22-i2v-remix" = "wan22-i2v-remix" ]; then       mkdir -p models/loras &&       echo "Downloading WAN2.2 diffusion models..." &&       wget -q --show-progress -O models/diffusion_models/Wan2.2_Remix_NSFW_i2v_14b_high_lighting_v2.0.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2_Remix_NSFW_i2v_14b_high_lighting_v2.0.safetensors &&       wget -q --show-progress -O models/diffusion_models/Wan2.2_Remix_NSFW_i2v_14b_low_lighting_v2.0.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2_Remix_NSFW_i2v_14b_low_lighting_v2.0.safetensors &&       echo "Downloading WAN2.2 text encoder..." &&       wget -q --show-progress -O models/text_encoders/nsfw_wan_umt5-xxl_fp8_scaled.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/nsfw_wan_umt5-xxl_fp8_scaled.safetensors &&       echo "Downloading WAN2.1 VAE..." &&       wget -q --show-progress -O models/vae/wan_2.1_vae.safetensors https://huggingface.co/wanmodel/WAN2.1-I2V/resolve/main/wan_2.1_vae.safetensors &&       echo "Downloading optional Lightning LoRAs..." &&       wget -q --show-progress -O models/loras/Wan2.2-Lightning_I2V-A14B-4steps-lora_HIGH_fp16.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2-Lightning_I2V-A14B-4steps-lora_HIGH_fp16.safetensors || true &&       wget -q --show-progress -O models/loras/Wan2.2-Lightning_I2V-A14B-4steps-lora_LOW_fp16.safetensors https://huggingface.co/wanmodel/WAN2.2-Remix-I2V-NSFW/resolve/main/Wan2.2-Lightning_I2V-A14B-4steps-lora_LOW_fp16.safetensors || true;     fi
+2026-01-18T10:09:20.412Z [INFO] #38 0.206 Downloading WAN2.2 diffusion models...
+2026-01-18T10:09:20.887Z [INFO] #38 DONE 0.7s
+2026-01-18T10:09:21.110Z [INFO] #39 [final 1/1] COPY --from=downloader /comfyui/models /comfyui/models
+2026-01-18T10:09:21.110Z [INFO] #39 DONE 0.0s
+2026-01-18T10:09:21.110Z [INFO] #40 exporting to oci image format. This takes a little bit of time. Please be patient.
+2026-01-18T10:09:21.110Z [INFO] #40 exporting layers
+2026-01-18T10:09:29.517Z [INFO] #40 exporting layers 8.6s done
+2026-01-18T10:09:29.671Z [INFO] #40 exporting manifest sha256:bcbecd8c6c8680f470fa18272e61037f0be35be642027686cfddb8d4731aaf18 done
+2026-01-18T10:09:29.672Z [INFO] #40 exporting config sha256:249ab9cf285a3d4b86f79b3d9b9deef31350b732d1d9ed8c0b10171fc42dd272 done
+2026-01-18T10:09:29.672Z [INFO] #40 sending tarball
+2026-01-18T10:10:04.307Z [INFO] #40 sending tarball 34.8s done
+2026-01-18T10:10:04.307Z [INFO] #40 DONE 43.3s
+2026-01-18T10:10:04.307Z [INFO] #41 exporting cache to client directory
+2026-01-18T10:10:04.307Z [INFO] #41 preparing build cache for export
+2026-01-18T10:10:04.488Z [INFO] #41 writing layer sha256:0d9c0b6f9acf9574cc06f6709bb605443baa2e269b15ee60e3dfcf4c1f6d9e75 0.1s done
+2026-01-18T10:10:04.488Z [INFO] #41 writing layer sha256:131bee86a10193ca031117ef0285d8e56d8b5533ba3af756c3943f2743357135
+2026-01-18T10:10:04.589Z [INFO] #41 writing layer sha256:131bee86a10193ca031117ef0285d8e56d8b5533ba3af756c3943f2743357135 0.1s done
+2026-01-18T10:10:04.589Z [INFO] #41 writing layer sha256:150ae9de14cf67d192ab855eb94172865ba70f5b4b2e832ffed3e8f1df6307f5 done
+2026-01-18T10:10:04.589Z [INFO] #41 writing layer sha256:2adc0a9561014b7ad7d7c92fea1e27301719cbbdfa8c090f7f5ff4611b64f87a
+2026-01-18T10:10:04.838Z [INFO] #41 writing layer sha256:2adc0a9561014b7ad7d7c92fea1e27301719cbbdfa8c090f7f5ff4611b64f87a 0.1s done
+2026-01-18T10:10:04.839Z [INFO] #41 writing layer sha256:2be558e6208abdfabea2bcb6834e70c04b9d1a8df63fa0fa3200a9ab3e13a0c6
+2026-01-18T10:10:05.201Z [INFO] #41 writing layer sha256:2be558e6208abdfabea2bcb6834e70c04b9d1a8df63fa0fa3200a9ab3e13a0c6 0.5s done
+2026-01-18T10:10:05.201Z [INFO] #41 writing layer sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d
+2026-01-18T10:10:05.384Z [INFO] #41 writing layer sha256:3a77755a6e98f58adb54c05c04a0f7d89babc576329bb006e7e680349ef4cb7d 0.0s done
+2026-01-18T10:10:05.384Z [INFO] #41 writing layer sha256:3b176c2fc716d64847e7a75a3572297f05a2f4d7f8d649ce1dd1c687350f9ef4 done
+2026-01-18T10:10:05.384Z [INFO] #41 writing layer sha256:4730b3032f6322ddad2c8dd73e15e383016a6b39dda44ade79761bc2fdbf9c1d 0.1s done
+2026-01-18T10:10:05.384Z [INFO] #41 writing layer sha256:4ddc0931a90d6da02b4fd1a5dc7fe2e60b6bd7d614ba39fbf83a24d38e716719 0.1s done
+2026-01-18T10:10:05.384Z [INFO] #41 writing layer sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1 done
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:58993f5e34750d2324e4b2f1a97cf4dc2bb3a33958490b4d31153ed90a65cadd done
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:621a8f79ca0a48263924a4e1d138e8acbc80ea19de7dc8367d27013f57a027ff 0.1s done
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:6fd18a5204307c56c8849e2653f9b154d15c95c565e05d93d2b407af98b620aa done
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:77b0ceda29ac0c8b985431cc5a073a2e45f89103d83877451694b5e13be7c794 done
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:89306e1ea8c58b29b89d766c35723d6131de88f4e768ae5d5d6bda60fa26ca44 done
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:8c0575e6ec2e0dccea3445e36b0cd99d4c237c136d86e2400b710de22f1e6460 done
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:90450e403c00d37f081248b4445d7c3bf82d7547882d80d032a20deae2a08159 done
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:9187a8bdedb59d17eb3a640f5b71de47a023756bdd189a19badbc88d74270391 0.1s done
+2026-01-18T10:10:05.579Z [INFO] #41 writing layer sha256:95c4042ee7b43d473bcc80f264a4d7c6e8634d18cb2e3dba58277b7b5645840f
+2026-01-18T10:10:05.824Z [INFO] #41 writing layer sha256:95c4042ee7b43d473bcc80f264a4d7c6e8634d18cb2e3dba58277b7b5645840f done
+2026-01-18T10:10:05.824Z [INFO] #41 writing layer sha256:98485567eda6485fd048dca1021abe80747e713597d852e9385434e028410422 0.1s done
+2026-01-18T10:10:05.824Z [INFO] #41 writing layer sha256:9cccfd001630953db088596f7925cc5a4d0a4f7d973b73cf5b4a152bc6b336c0 done
+2026-01-18T10:10:05.824Z [INFO] #41 writing layer sha256:9df6a0133c997bb98c496052764fd50c42de226c0854ee1e309c19e9f3812c39
+2026-01-18T10:10:06.682Z [INFO] #41 writing layer sha256:9df6a0133c997bb98c496052764fd50c42de226c0854ee1e309c19e9f3812c39 1.0s done
+2026-01-18T10:10:06.682Z [INFO] #41 writing layer sha256:a00c56433b0c06cf0b09ffc6cd373d2222d0d8f2c6fb4ec59381584b15a3f19d
+2026-01-18T10:10:07.553Z [INFO] #41 writing layer sha256:a00c56433b0c06cf0b09ffc6cd373d2222d0d8f2c6fb4ec59381584b15a3f19d 0.9s done
+2026-01-18T10:10:07.553Z [INFO] #41 writing layer sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f
+2026-01-18T10:10:07.664Z [INFO] #41 writing layer sha256:afad30e59d72d5c8df4023014c983e457f21818971775c4224163595ec20b69f done
+2026-01-18T10:10:07.664Z [INFO] #41 writing layer sha256:b65b9c5d1837aeb0dedc226f42b4c22fb5f67d3655a3301047dac62dcc388c91 0.1s done
+2026-01-18T10:10:07.664Z [INFO] #41 writing layer sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39
+2026-01-18T10:10:07.847Z [INFO] #41 writing layer sha256:b941fc7264e29581045302fe22c496deb4df2f1cc8fa574ee831909482465c39 done
+2026-01-18T10:10:07.847Z [INFO] #41 writing layer sha256:bd06d3ff253296357a1a441787d5026e6f69aadadf9296fd6ae3fc3b11fd1cbc done
+2026-01-18T10:10:07.847Z [INFO] #41 writing layer sha256:d67931eaa1a46f193cb177430e1e8fdc0a8df82fd9a306ff92059f2635f202dd done
+2026-01-18T10:10:07.847Z [INFO] #41 writing layer sha256:eac7671036e52c9ebe639cb47bd24f6dcd93780b6009e30b65e949d9b06688b7 0.1s done
+2026-01-18T10:10:07.847Z [INFO] #41 writing layer sha256:eae9dcf87f5b371a2afe4ef732e4c9902da33a22246852ed1cf428cb97c993dd 0.1s done
+2026-01-18T10:10:07.847Z [INFO] #41 writing layer sha256:f7d8b8b3090e4f9b9780360a40db81d06ccce2311d15a6d15712d96daf8de8ea
+2026-01-18T10:10:08.025Z [INFO] #41 writing layer sha256:f7d8b8b3090e4f9b9780360a40db81d06ccce2311d15a6d15712d96daf8de8ea 0.1s done
+2026-01-18T10:10:08.025Z [INFO] #41 writing config sha256:77af34fab35fa70be9e768a534647a8f70c84edb751e20b721c45df9642797a1 0.1s done
+2026-01-18T10:10:08.160Z [INFO] #41 preparing build cache for export 3.8s done
+2026-01-18T10:10:08.160Z [INFO] #41 writing cache manifest sha256:dfd9f2ade0b61d1f18d99cc1e3ddbb6707515a907f377d0016c72579009338fc 0.1s done
+2026-01-18T10:10:08.160Z [INFO] #41 DONE 3.8s
+2026-01-18T10:10:08.160Z [INFO] WARNING: current commit information was not captured by the build: git was not found in the system: exec: "git": executable file not found in $PATH
+2026-01-18T10:10:08.161Z [INFO]  [33m1 warning found (use docker --debug to expand):
+2026-01-18T10:10:08.161Z [INFO] [0m - SecretsUsedInArgOrEnv: Do not use ARG or ENV instructions for sensitive data (ARG "HUGGINGFACE_ACCESS_TOKEN") (line 112)
+2026-01-18T10:10:08.180Z [INFO] Build complete.
+2026-01-18T10:10:08.511Z [INFO] Pushing image to registry. This takes some time - please be patient.
+2026-01-18T10:10:08.516Z [INFO] Starting registry push
+2026-01-18T10:10:08.516Z [INFO] Extracting /app/registry-push/output.tar to /app/registry-push/.output-image
+2026-01-18T10:10:16.730Z [INFO] Extraction complete
+2026-01-18T10:10:16.730Z [INFO] Push registry.runpod.net/namelessonez-worker-comfyui-main-dockerfile:585b1f4ec
+2026-01-18T10:10:16.730Z [INFO] 33 layers, 11.09 GB total
+2026-01-18T10:10:16.730Z [INFO]   afad30e59d72  layer      28.4 MB
+2026-01-18T10:10:16.730Z [INFO]   bd06d3ff2532  layer       4.3 MB
+2026-01-18T10:10:16.730Z [INFO]   8c0575e6ec2e  layer      54.7 MB
+2026-01-18T10:10:16.730Z [INFO]   95c4042ee7b4  layer        186 B
+2026-01-18T10:10:16.730Z [INFO]   150ae9de14cf  layer       6.7 KB
+2026-01-18T10:10:16.730Z [INFO]   9cccfd001630  layer      1.34 GB
+2026-01-18T10:10:16.730Z [INFO]   77b0ceda29ac  layer      58.0 KB
+2026-01-18T10:10:16.730Z [INFO]   6fd18a520430  layer       1.6 KB
+2026-01-18T10:10:16.730Z [INFO]   3b176c2fc716  layer       1.5 KB
+2026-01-18T10:10:16.730Z [INFO]   d67931eaa1a4  layer     549.3 MB
+2026-01-18T10:10:16.730Z [INFO]   b941fc7264e2  layer     311.2 MB
+2026-01-18T10:10:16.730Z [INFO]   58993f5e3475  layer        637 B
+2026-01-18T10:10:16.730Z [INFO]   89306e1ea8c5  layer      22.2 MB
+2026-01-18T10:10:16.730Z [INFO]   3a77755a6e98  layer      50.2 MB
+2026-01-18T10:10:16.730Z [INFO]   90450e403c00  layer      8.50 GB
+2026-01-18T10:10:16.730Z [INFO]   4f4fb700ef54  layer         32 B
+2026-01-18T10:10:16.730Z [INFO]   a00c56433b0c  layer      98.9 MB
+2026-01-18T10:10:16.730Z [INFO]   0d9c0b6f9acf  layer        300 B
+2026-01-18T10:10:16.730Z [INFO]   131bee86a101  layer        300 B
+2026-01-18T10:10:16.730Z [INFO]   b65b9c5d1837  layer        300 B
+2026-01-18T10:10:16.730Z [INFO]   9df6a0133c99  layer     115.9 MB
+2026-01-18T10:10:16.730Z [INFO]   eac7671036e5  layer      13.3 KB
+2026-01-18T10:10:16.730Z [INFO]   9187a8bdedb5  layer        318 B
+2026-01-18T10:10:16.730Z [INFO]   2be558e6208a  layer      42.7 MB
+2026-01-18T10:10:16.730Z [INFO]   4ddc0931a90d  layer      12.7 KB
+2026-01-18T10:10:16.730Z [INFO]   2adc0a956101  layer        599 B
+2026-01-18T10:10:16.730Z [INFO]   f7d8b8b3090e  layer       1003 B
+2026-01-18T10:10:16.730Z [INFO]   621a8f79ca0a  layer        998 B
+2026-01-18T10:10:16.730Z [INFO]   98485567eda6  layer        664 B
+2026-01-18T10:10:16.730Z [INFO]   eae9dcf87f5b  layer        661 B
+2026-01-18T10:10:16.730Z [INFO]   4730b3032f63  layer        291 B
+2026-01-18T10:10:16.730Z [INFO]   249ab9cf285a  config     23.2 KB
+2026-01-18T10:10:16.920Z [INFO]   cached 90450e403c00 8.50 GB
+2026-01-18T10:10:16.920Z [INFO]   cached afad30e59d72 28.4 MB
+2026-01-18T10:10:16.921Z [INFO]   cached 77b0ceda29ac 58.0 KB
+2026-01-18T10:10:16.921Z [INFO]   cached bd06d3ff2532 4.3 MB
+2026-01-18T10:10:16.922Z [INFO]   cached 95c4042ee7b4 186 B
+2026-01-18T10:10:16.924Z [INFO]   cached 3b176c2fc716 1.5 KB
+2026-01-18T10:10:16.927Z [INFO]   cached 6fd18a520430 1.6 KB
+2026-01-18T10:10:16.928Z [INFO]   cached 9cccfd001630 1.34 GB
+2026-01-18T10:10:16.928Z [INFO]   cached 150ae9de14cf 6.7 KB
+2026-01-18T10:10:16.929Z [INFO]   cached 3a77755a6e98 50.2 MB
+2026-01-18T10:10:16.931Z [INFO]   cached 89306e1ea8c5 22.2 MB
+2026-01-18T10:10:16.935Z [INFO]   cached 8c0575e6ec2e 54.7 MB
+2026-01-18T10:10:16.968Z [INFO]   cached 4f4fb700ef54 32 B
+2026-01-18T10:10:16.989Z [INFO]   cached b941fc7264e2 311.2 MB
+2026-01-18T10:10:16.991Z [INFO]   cached 58993f5e3475 637 B
+2026-01-18T10:10:16.991Z [INFO]   cached 4f4fb700ef54 32 B
+2026-01-18T10:10:17.010Z [INFO]   cached d67931eaa1a4 549.3 MB
+2026-01-18T10:10:17.134Z [INFO] [direct-plan] a00c56433b0c single size=98.9 MB
+2026-01-18T10:10:17.170Z [INFO] [direct-plan] 2be558e6208a single size=42.7 MB
+2026-01-18T10:10:17.181Z [INFO] [direct-plan] 9df6a0133c99 single size=115.9 MB
+2026-01-18T10:10:18.086Z [INFO]   uploaded 4730b3032f63 291 B
+2026-01-18T10:10:18.119Z [INFO]   uploaded 9187a8bdedb5 318 B
+2026-01-18T10:10:18.130Z [INFO]   uploaded b65b9c5d1837 300 B
+2026-01-18T10:10:18.185Z [INFO]   uploaded 4ddc0931a90d 12.7 KB
+2026-01-18T10:10:18.238Z [INFO]   uploaded eae9dcf87f5b 661 B
+2026-01-18T10:10:18.292Z [INFO]   uploaded 131bee86a101 300 B
+2026-01-18T10:10:18.430Z [INFO]   uploaded 249ab9cf285a 23.2 KB
+2026-01-18T10:10:18.441Z [INFO]   uploaded 2adc0a956101 599 B
+2026-01-18T10:10:18.446Z [INFO]   uploaded 0d9c0b6f9acf 300 B
+2026-01-18T10:10:18.484Z [INFO]   uploaded f7d8b8b3090e 1003 B
+2026-01-18T10:10:18.490Z [INFO]   uploaded 98485567eda6 664 B
+2026-01-18T10:10:18.599Z [INFO]   uploaded eac7671036e5 13.3 KB
+2026-01-18T10:10:18.736Z [INFO]   uploaded 621a8f79ca0a 998 B
+2026-01-18T10:10:18.827Z [INFO]   uploaded 2be558e6208a 42.7 MB
+2026-01-18T10:10:20.654Z [INFO]   uploaded a00c56433b0c 98.9 MB
+2026-01-18T10:10:21.007Z [INFO]   uploaded 9df6a0133c99 115.9 MB
+2026-01-18T10:10:21.007Z [INFO] [status] 33/33 layers 257.5 MB in 4.28s @ 60.2 MB/s
+2026-01-18T10:10:22.709Z [INFO] ✓ Pushed 11.09 GB in 6.0s (1899.3 MB/s)
+2026-01-18T10:10:22.711Z [INFO] Successfully pushed image to registry.
